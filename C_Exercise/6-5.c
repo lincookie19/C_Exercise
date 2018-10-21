@@ -6,7 +6,6 @@ int main(){
         int num;
         scanf("%d %d %d", &num, &y, &z);
         if(num==z){
-            printf("%d",i);
             i++;
         }
         while(i!=y){
