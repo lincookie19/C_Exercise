@@ -10,7 +10,7 @@ int main(){
         }
         while(i!=y){
             num++;
-            if(num%z==0){
+            if(num%z==0){//尋找z的倍數
                 i++;
             }
         }
