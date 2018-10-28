@@ -10,7 +10,7 @@ int main(){
     scanf("%d %d", &Number, &Quantity);
     while(i!=1){
         if(Number==0 && Quantity==0){
-            break;
+            i++;
         }
         switch(Number){
             case 1 :
