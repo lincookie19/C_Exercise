@@ -13,16 +13,18 @@
 int main(){
     int Number;
     int Quantity;
-    int i=0;
+    int flag=0;
     float Price;
     float sum=0;
     
-    scanf("%d %d", &Number, &Quantity);
-    while(i!=1){
-        if(Number==0 && Quantity==0){/*當輸入 0 0 時終止輸入,開始跑程式*/
-            i++;
-        }
+    while(flag==0){
+        scanf("%d %d", &Number, &Quantity);
         switch(Number){
+            case 0 :
+                if(Quantity==0){
+                    flag=1;
+                }
+                break;
             case 1 :
                 Price=Quantity*2.98;
                 break;
@@ -42,7 +44,8 @@ int main(){
                 printf("Error");
         }
         sum=sum+Price;
-        printf("%.2f",sum);
     }
+    printf("%.2f",sum);
+    
     return 0;
 }
