@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main(){
-    char i;
+    char i='0';
     int A=0;
     int B=0;
     int C=0;
     int D=0;
     int E=0;
-    i=getchar();
     while(i!='\n'){
+        i=getchar();
         if(i=='a' || i=='A'){
             A++;
         }
