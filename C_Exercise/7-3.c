@@ -7,8 +7,8 @@ int main(){
     int C=0;
     int D=0;
     int E=0;
-   
-    while(getchar()=='\n'){
+    i=getchar();
+    while(i!='\n'){
         if(i=='a' || i=='A'){
             A++;
         }
