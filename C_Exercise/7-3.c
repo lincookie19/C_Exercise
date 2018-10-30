@@ -9,7 +9,7 @@ int main(){
     int E=0;
     scanf("%c", &i);
     i=getchar();
-    while(getchar()!=i){
+    while(getchar()==i){
         if(C=='a' || C=='A'){
             A++;
         }
