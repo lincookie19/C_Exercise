@@ -7,8 +7,7 @@ int main(){
     int C=0;
     int D=0;
     int E=0;
-    scanf("%c", &i);
-    i=getchar();
+   
     while(getchar()==i){
         if(C=='a' || C=='A'){
             A++;
