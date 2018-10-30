@@ -9,19 +9,19 @@ int main(){
     int E=0;
    
     while(getchar()=='\n'){
-        if(C=='a' || C=='A'){
+        if(i=='a' || i=='A'){
             A++;
         }
-        if(C=='e' || C=='E'){
+        if(i=='e' || i=='E'){
             B++;
         }
-        if(C=='i' || C=='I'){
+        if(i=='i' || i=='I'){
             C++;
         }
-        if(C=='o' || C=='O'){
+        if(i=='o' || i=='O'){
             D++;
         }
-        if(C=='u' || C=='U'){
+        if(i=='u' || i=='U'){
             E++;
         }
     }
