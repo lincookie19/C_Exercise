@@ -1,3 +1,5 @@
+//13-4
+//檢測字串是否為迴文
 #include <stdio.h>
 #include <string.h>
 
