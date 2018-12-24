@@ -8,7 +8,6 @@ int calc(int num){
         return num * calc(num - 1);
     }
 }
-品宏小雞雞；
 
 int main(){
     int num;
