@@ -1,3 +1,5 @@
+//9-4
+//計算f(x)=6x^4+5x^3+4x^2+3x+2
 #include <stdio.h>
 int f(int x){
     int  a, b, c, d, ans;
