@@ -1,3 +1,5 @@
+//11-1
+//寫一隻程式隨機生成N個-5~30之間的數字
 #include <stdio.h>
 #include <stdlib.h>
 
