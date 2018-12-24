@@ -1,3 +1,5 @@
+//13-6
+//排序陣列中的元素(由小到大)
 #include <stdio.h>
 
 int selectionSort(int arr[100],int length){
