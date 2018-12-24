@@ -1,3 +1,4 @@
+//讀進一個二位數，並將其對應的中文寫法印出來
 #include <stdio.h>
 
 int main(){
