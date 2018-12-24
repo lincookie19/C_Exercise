@@ -1,3 +1,5 @@
+//10-4
+//由參數傳進兩個數，分別代表底數與指數
 #include <stdio.h>
 
 int power(int base, int index){
