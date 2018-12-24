@@ -1,3 +1,5 @@
+//13-1
+//寫一個程式計算兩個一維陣列的內積
 #include <stdio.h>
 
 int main(){
