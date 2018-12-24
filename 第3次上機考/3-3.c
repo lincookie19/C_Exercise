@@ -1,3 +1,4 @@
+//檢測N是否為質數
 #include <stdio.h>
 
 int prime_number(int num){
