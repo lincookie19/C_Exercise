@@ -1,3 +1,5 @@
+//9-5
+//第一個參數代表要印出幾行，第二個參數代表要用甚麼字元組成
 #include <stdio.h>
 
 int printTree(int level, char des){
