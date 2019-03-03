@@ -1,3 +1,5 @@
+//10-1
+//寫一隻名為calc的副程式來計算N!
 #include <stdio.h>
 
 int calc(int num){

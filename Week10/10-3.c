@@ -1,3 +1,7 @@
+//10-3
+//0 if n=0
+//fib(n) if n=1
+//fib(n-1)+fib(n-2) if n>1 
 #include <stdio.h>
 
 int Fib(int n){

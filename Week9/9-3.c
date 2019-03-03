@@ -1,3 +1,5 @@
+//9-3
+//改寫成只有一個return的程式
 #include <stdio.h>
 
 double median (double x, double y, double z){

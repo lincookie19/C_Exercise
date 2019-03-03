@@ -1,3 +1,5 @@
+//11-2
+//寫一隻程式隨機生成N個0.0~1.0間的數字
 #include <stdio.h>
 #include <stdlib.h>
 

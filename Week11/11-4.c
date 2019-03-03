@@ -1,3 +1,5 @@
+//11-4
+//寫一隻程式使陣列中的數全部加6
 #include <stdio.h>
 
 int main(){

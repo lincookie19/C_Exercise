@@ -1,3 +1,4 @@
+//讀入一班學生的成績，並劃出長條圖
 #include <stdio.h>
 
 int main(){

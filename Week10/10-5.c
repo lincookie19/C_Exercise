@@ -1,3 +1,6 @@
+//10-5
+//gcd(x,y)=x if y=0
+//gcd(y,x % y)= otherwise
 #include <stdio.h>
 
 int gcd(int x, int y){

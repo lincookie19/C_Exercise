@@ -1,3 +1,5 @@
+//9-2
+//寫一隻名為max的副程式，由參數接收4個數，並回傳其最大值
 #include <stdio.h>
 #define SWAP(x,y,t) ( (t)=(x), (x)=(y), (y)=(t) )
 
