@@ -1,10 +1,11 @@
+/*撰寫一程式，宣告如下，int* largest(int a[], int n);
+a為輸入陣列，n為陣列長度，並回傳最大整數的地址*/
 #include <stdio.h>
 
 int* largest(int a[], int n){
     int i;
-    int max = -99999;
     int *ptr = &a[0];
-        for(i = 0; i < n; i++){
+    for(i = 0; i < n; i++){
         if(a[i] > *ptr){
             ptr = &a[i];
         }

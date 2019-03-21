@@ -1,3 +1,5 @@
+/*傳入兩個整數指標a、b
+並將兩數交換*/
 #include <stdio.h>
 
 void swap(int *a, int *b){

@@ -1,3 +1,4 @@
+/*由參數傳入字元指標，將陣列內的字進行反轉*/
 #include <stdio.h>
 #include <string.h>
 
